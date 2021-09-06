@@ -6,5 +6,5 @@ from templates import *
 # Create your views here.
 
 
-class CV():
-    return render(request "accept.html")
+def resume(request):
+    return render(request, 'accept.html')
