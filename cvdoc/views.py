@@ -7,4 +7,6 @@ from templates import *
 
 
 def resume(request):
+    if request.method == "POST":
+        person = models.Person
     return render(request, 'accept.html')
