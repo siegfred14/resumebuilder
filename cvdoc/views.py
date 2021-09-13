@@ -10,5 +10,6 @@ def resume(request):
     if request.method == "POST":
         person = models.Person
         name = request.POST.get('name')
+        phone = request.POST.get('phone')
 
     return render(request, 'accept.html')
