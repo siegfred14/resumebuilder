@@ -11,5 +11,6 @@ def resume(request):
         person = models.Person
         name = request.POST.get('name')
         phone = request.POST.get('phone')
+        email = request.POST.get('email')
 
     return render(request, 'accept.html')
