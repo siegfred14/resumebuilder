@@ -13,5 +13,6 @@ def resume(request):
         phone = request.POST.get('phone')
         email = request.POST.get('email')
         highschool = request.POST.get('highschool')
+        degree = request.POST.get('degree')
 
     return render(request, 'accept.html')
