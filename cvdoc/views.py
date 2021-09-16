@@ -16,5 +16,6 @@ def resume(request):
         degree = request.POST.get('degree')
         university = request.POST.get('university')
         skill = request.POST.get('skill')
+        about_you = request.POST.get('about_you')
 
     return render(request, 'accept.html')
