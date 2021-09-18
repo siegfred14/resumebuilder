@@ -3,5 +3,5 @@ from django.urls.resolvers import URLPattern
 from .views import resume
 
 urlpatterns = [
-    path('', resume())
+    path('', resume),
 ]
