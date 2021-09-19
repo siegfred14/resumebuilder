@@ -2,6 +2,7 @@ from django.http import request
 from django.shortcuts import render
 from . import models
 from templates import *
+from django.http import HttpResponse
 
 # Create your views here.
 
@@ -19,4 +20,6 @@ def resume(request):
         about_you = request.POST.get('about_you')
         previous_work = request.POST.get('previous_work')
 
-    return render(request, 'accept.html')
+        return render(request, 'accept.html')
+
+    # return render(request, 'accept.html')
