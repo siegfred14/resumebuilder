@@ -22,4 +22,4 @@ def resume(request):
 
         return render(request, 'accept.html')
 
-    # return render(request, 'accept.html')
+    return HttpResponse('Please Enter Correct Details', content_type="text/plain")
