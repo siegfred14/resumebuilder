@@ -19,5 +19,5 @@ from django.urls.conf import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('cvdoc.urls'))
+    path('api/v1', include('cvdoc.urls'))
 ]
