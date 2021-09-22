@@ -7,7 +7,7 @@ from django.db.models.base import Model
 class Person(models.Model):
     image = models.ImageField()
     name = models.CharField(max_length=100)
-    phone = models.IntegerField(max_length=20)
+    phone = models.IntegerField()
     email = models.EmailField(max_length=50)
     highschool = models.CharField(max_length=70)
     degree = models.CharField(max_length=50)
