@@ -6,3 +6,4 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('', resume, name="resume"),
 ]
+urlpatterns += staticfiles_urlpatterns()
