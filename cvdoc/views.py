@@ -9,8 +9,6 @@ from django.http import HttpResponse
 
 def resume(request):
     if request.method == "POST":
-        person = Person(image=image, name=name, phone=phone, email=email, highschool=highschool, degree=degree,
-                        university=university, skill=skill, about_you=about_you, previous_work=previous_work)
         image = request.POST.get('image')
         name = request.POST.get('name')
         phone = request.POST.get('phone')
@@ -21,6 +19,10 @@ def resume(request):
         skill = request.POST.get('skill')
         about_you = request.POST.get('about_you')
         previous_work = request.POST.get('previous_work')
+
+        person = Person(image=image, name=name, phone=phone, email=email, highschool=highschool, degree=degree,
+                        university=university, skill=skill, about_you=about_you, previous_work=previous_work)
+        person.save()
 
     return render(request, 'accept.html')
 
