@@ -22,6 +22,12 @@
   </head>
 
   <body>
+    {% comment %}
+    <div class="container"></div>
+
+    <div class="container"></div>
+    {% endcomment %}
+
     <div class="container">
       <div class="row m-5">
         <div class="col-md-12">
@@ -29,20 +35,17 @@
           <hr />
         </div>
       </div>
-    </div>
 
-    <div class="container">
       <div class="row m-5">
         <div class="col-md-12">
           <h4>Fill Out Your Details</h4>
         </div>
       </div>
-    </div>
 
-    <div class="container">
       <div class="row m-5">
         <div class="col-md-10">
-          <form>
+          <form method="POST">
+            {% csrf_token %}
             <div class="form-group">
               <label for="image"></label>
               <input type="file" class="form-control-file" id="image" />
