@@ -1,7 +1,7 @@
 from django.http import request
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Person
-# from templates import *
+from django.contrib import messages
 from django.http import HttpResponse
 
 # Create your views here.
@@ -22,7 +22,6 @@ def resume(request):
 
         person = Person(image=image, name=name, phone=phone, email=email, highschool=highschool, degree=degree,
                         university=university, skill=skill, about_you=about_you, previous_work=previous_work)
-        person.save()
 
     return render(request, 'accept.html')
 
