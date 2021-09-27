@@ -30,3 +30,8 @@ def resume(request):
     return render(request, 'accept.html')
 
     # return HttpResponse('Please Enter Correct Details', content_type="text/plain")
+
+
+def resume(request, id):
+    user-profile = Person.objects.get(pk=id)
+    return render(request, "resume.html", {'user_profile': user_profile})
