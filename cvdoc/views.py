@@ -23,6 +23,10 @@ def resume(request):
         person = Person(image=image, name=name, phone=phone, email=email, highschool=highschool, degree=degree,
                         university=university, skill=skill, about_you=about_you, previous_work=previous_work)
 
+        messages.success(request, "Details Uploaded Succesfully")
+        person.save()
+        return redirect('/')
+
     return render(request, 'accept.html')
 
     # return HttpResponse('Please Enter Correct Details', content_type="text/plain")
