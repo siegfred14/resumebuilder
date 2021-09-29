@@ -4,6 +4,7 @@ from .models import Person
 from django.contrib import messages
 from django.http import HttpResponse
 from django.template import loader
+import pdfkit
 
 # Create your views here.
 
