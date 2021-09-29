@@ -5,6 +5,7 @@ from django.contrib import messages
 from django.http import HttpResponse
 from django.template import loader
 import pdfkit
+import io
 
 # Create your views here.
 
