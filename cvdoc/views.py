@@ -39,4 +39,5 @@ def pdf(request, id):
     user_profile = Person.objects.get(pk=id)
     template = loader.get_template("resume.html")
     html = template.render({"user_profile": user_profile})
+    pdf = pdfkit.from_string(html, False, option)
     return render(request, "resume.html", {'user_profile': user_profile})
