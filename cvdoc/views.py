@@ -48,3 +48,8 @@ def pdf(request, id):
     response['Content-Disposition'] = 'attachments'
     return response
     # return render(request, "resume.html", {'user_profile': user_profile})
+
+
+def list(request):
+    person = Person.objects.all()
+    return render(request, "list.html", {'person': person})
