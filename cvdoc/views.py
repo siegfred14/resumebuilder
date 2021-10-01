@@ -40,8 +40,8 @@ def pdf(request, id):
     template = loader.get_template("resume.html")
     html = template.render({"user_profile": user_profile})
     option = {
-        'paper-size' = 'Letter',
-        'encoding' = 'UTF-8'
+        'paper-size': 'Letter',
+        'encoding': 'UTF-8'
     }
     pdf = pdfkit.from_string(html, False, option)
     # return render(request, "resume.html", {'user_profile': user_profile})
