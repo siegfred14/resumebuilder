@@ -1,4 +1,4 @@
-from django.http import request
+from django.http import request, response
 from django.shortcuts import render, redirect
 from .models import Person
 from django.contrib import messages
@@ -44,4 +44,7 @@ def pdf(request, id):
         'encoding': 'UTF-8'
     }
     pdf = pdfkit.from_string(html, False, option)
+    response = HttpResponse(pdf, content_type='application/pdf')
+    response['Content-Disposition'] = 'attachments'
+    return response
     # return render(request, "resume.html", {'user_profile': user_profile})
