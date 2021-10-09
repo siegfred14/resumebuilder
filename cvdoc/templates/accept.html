@@ -1,184 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Source+Sans+{ro:400"
-    />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <title>Siegfred Resume-Builder</title>
-  </head>
+{% extends 'base.html' %}
 
-  <body>
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        <b>Siegfred's Resume Builder</b>
-      </a>
-    </nav>
+{% block content%}
 
-
-    {% comment %}
-    <div class="container"></div>
-
-    <div class="container"></div>
-    {% endcomment %}
-
-    <!-- Image and text -->
-
-    <div class="container">
-      <div class="row m-5">
-        <div class="col-md-12">
-          <h1>CV Generator</h1>
-          <hr />
-        </div>
-      </div>
-
-      <div class="row m-5">
-        <div class="col-md-12">
-          <h4>Fill Out Your Details</h4>
-        </div>
-      </div>
-
-      <div class="row m-5">
-        <div class="col-md-10">
-
-          <form method="POST" enctype="multipart/form-data">
-            {% csrf_token %}
-            <div class="form-group">
-              <label for="image"><b>Please Enter Your Image Here</b></label>
-              </br>
-              <input type="file" class="form-control-file" id="image" />
-            </div>
-            </br>
-
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                name="name"
-                placeholder="Enter your name"
-              />
-              {% comment %}
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
-              {% endcomment %}
-            </div>
-
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input
-                type="number"
-                class="form-control"
-                id="phone"
-                name="phone"
-                placeholder="Enter your Phone Number"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                name="email"
-                placeholder="Enter your email"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="highschool">High School</label>
-              <input
-                type="text"
-                class="form-control"
-                id="highschool"
-                name="highschool"
-                placeholder="Enter Your High School"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="degree">Degree Institution</label>
-              <input
-                type="text"
-                class="form-control"
-                id="degree"
-                name="degree"
-                placeholder="Enter Your Degree"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="university">University</label>
-              <input
-                type="text"
-                class="form-control"
-                id="university"
-                name="university"
-                placeholder="Enter Your University"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="skill"></label>
-              <textarea
-                id="skill"
-                name="skill"
-                class="form-control"
-                placeholder="Please Enter your Skill"
-                required
-              ></textarea>
-            </div>
-
-            <div class="form-group">
-              <label for="about_you">About You</label>
-              <textarea
-                id="about_you"
-                name="about_you"
-                class="form-control"
-                placeholder="Say something about yourself"
-                required
-              ></textarea>
-            </div>
-
-            <div class="form-group">
-              <label for="previous_work">Previous Work</label>
-              <textarea
-                id="previous_work"
-                name="previous_work"
-                class="form-control"
-                placeholder="Enter your work experience"
-                required
-              ></textarea>
-            </div>
-
-            <div class="form-group">
-              
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
+  <div class="container">
+    <div class="row m-5">
+      <div class="col-md-12">
+        <h1>CV Generator</h1>
+        <hr />
       </div>
     </div>
-  </body>
-</html>
+
+    <div class="row m-5">
+      <div class="col-md-12">
+        <h4>Fill Out Your Details</h4>
+      </div>
+    </div>
+
+    <div class="row m-5">
+      <div class="col-md-10">
+
+        <form method="POST" enctype="multipart/form-data">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="image"><b>Please Enter Your Image Here</b></label>
+            </br>
+            <input type="file" class="form-control-file" id="image" />
+          </div>
+          </br>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+            {% comment %}
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+            {% endcomment %}
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="number"
+              class="form-control"
+              id="phone"
+              name="phone"
+              placeholder="Enter your Phone Number"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="highschool">High School</label>
+            <input
+              type="text"
+              class="form-control"
+              id="highschool"
+              name="highschool"
+              placeholder="Enter Your High School"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="degree">Degree Institution</label>
+            <input
+              type="text"
+              class="form-control"
+              id="degree"
+              name="degree"
+              placeholder="Enter Your Degree"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="university">University</label>
+            <input
+              type="text"
+              class="form-control"
+              id="university"
+              name="university"
+              placeholder="Enter Your University"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="skill"></label>
+            <textarea
+              id="skill"
+              name="skill"
+              class="form-control"
+              placeholder="Please Enter your Skill"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="about_you">About You</label>
+            <textarea
+              id="about_you"
+              name="about_you"
+              class="form-control"
+              placeholder="Say something about yourself"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="previous_work">Previous Work</label>
+            <textarea
+              id="previous_work"
+              name="previous_work"
+              class="form-control"
+              placeholder="Enter your work experience"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+{% endblock%}
