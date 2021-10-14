@@ -9,6 +9,9 @@ body {
 .container {
   background: rgba(23, 162, 184, 0.4);
   box-shadow: 0 5px 5px black;
+  border-radius: 1%;
+  color: #073036;
+  font-family: cursive;
 }
 
 .form_title {
