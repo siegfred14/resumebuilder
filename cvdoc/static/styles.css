@@ -10,3 +10,8 @@ body {
   background: rgba(23, 162, 184, 0.4);
   box-shadow: 0 5px 5px black;
 }
+
+.form_title {
+  color: rgb(49, 132, 134);
+  padding-top: 3%;
+}
