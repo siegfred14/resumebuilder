@@ -21,3 +21,8 @@ body {
   padding-top: 3%;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.376);
 }
+
+.btn {
+  background-color: none;
+  font-size: 35px;
+}
