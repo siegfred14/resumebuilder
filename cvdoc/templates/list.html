@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% comment %} <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,22 +21,6 @@
     <title>Siegfred Download PDF</title>
   </head>
 
-  <body>
-    <div class="container">
-      <div class="row m-5">
-        <div class="col-md-12">
-          <h1>CV Database Profile</h1>
-          <hr />
-        </div>
-      </div>
-
-      {% for profile in person%}
-      <div class="row">
-        <div class="col-md-6">{{profile.name}}</div>
-        <div class="col-md-6">
-          <a href="/{{profile.id}}" class="btn btn-warning">Download CV</a>
-        </div>
-      </div>
-    </div>
-  </body>
+  <body></body>
 </html>
+{% endcomment %} {%{% extends 'base.html' %}%}

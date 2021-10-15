@@ -1,5 +1,6 @@
 .navbar {
   background-color: cadetblue;
+  /* position: sticky; */
 }
 
 body {
@@ -29,6 +30,12 @@ body {
 label {
   font-size: 25px;
 }
+
+/* .form-control:hover {
+  outline: rgb(134, 204, 30);
+  transition: all 0.5s;
+} */
+
 .btn {
   background-color: none;
   font-size: 25px;
