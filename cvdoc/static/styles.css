@@ -40,3 +40,7 @@ label {
   background-color: none;
   font-size: 25px;
 }
+
+.cv-template {
+  display: grid;
+}
