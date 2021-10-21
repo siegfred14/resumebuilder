@@ -7,6 +7,6 @@ urlpatterns = [
     path('', resume, name="resume"),
     path('<int:id>/', pdf, name="pdf"),
     path('list/', list, name="list"),
-    path('resume2/' resume2, name='resume2')
+    path('resume2/', resume2, name='resume2')
 ]
 urlpatterns += staticfiles_urlpatterns()
