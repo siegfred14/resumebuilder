@@ -45,3 +45,7 @@ label {
   display: grid;
   grid-template-columns: 35% 65%;
 }
+
+.segment1 {
+  background-image: linear-gradient(25deg, wheat, grey);
+}
