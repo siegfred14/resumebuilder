@@ -1,6 +1,6 @@
 from django.urls import path
 from django.urls.resolvers import URLPattern
-from .views import resume, pdf, list
+from .views import resume, pdf, list, resume2
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
