@@ -53,3 +53,7 @@ def pdf(request, id):
 def list(request):
     person = Person.objects.all()
     return render(request, "list.html", {'person': person})
+
+
+def resume2(request):
+    return render(request, 'resume2.html')
