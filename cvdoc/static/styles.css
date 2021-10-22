@@ -44,6 +44,8 @@ label {
 .cv-template {
   display: grid;
   grid-template-columns: 35% 65%;
+  size: 7in 9.25in;
+  margin: 27mm 16mm 27mm 16mm;
 }
 
 .segment1 {
