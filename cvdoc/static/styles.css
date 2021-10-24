@@ -57,6 +57,10 @@ label {
   /* background-color: green; */
 }
 
+.segment1-details b {
+  font-size: 10px;
+}
+
 .segment2 {
   background: white;
 }
