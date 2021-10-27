@@ -55,7 +55,7 @@ label {
 .segment1-class {
   padding: 30px;
   margin: 20px;
-  /* background-color: green; */
+  background-color: green;
 }
 
 .segment1-details b {
