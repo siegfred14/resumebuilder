@@ -3,9 +3,15 @@
 <div>
   {% block content %}
   <div>
-    <div>
+    {% comment %} welcome message {% endcomment %}
+    <div class="welcome_msg">
       <h1>WELCOME TO RESUMEDESIEGFRED</h1>
       <p>Home of your quick, modern and unique resume</p>
+    </div>
+
+    {% comment %} signin link {% endcomment %}
+    <div class="welcome_msg">
+      <a>sign in</a>
     </div>
   </div>
   {% endblock content %}
