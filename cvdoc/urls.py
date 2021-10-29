@@ -6,7 +6,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', resume, name="resume"),
+    path('resume/', resume, name="resume"),
     path('<int:id>/', pdf, name="pdf"),
     path('list/', list, name="list"),
     path('resume2/', resume2, name='resume2')
