@@ -10,6 +10,10 @@ import io
 # Create your views here.
 
 
+def home(request):
+    return render(request, 'home.html')
+
+
 def resume(request):
     if request.method == "POST":
         image = request.POST.get('image')
