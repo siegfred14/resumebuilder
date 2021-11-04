@@ -51,6 +51,7 @@ label {
   grid-template-columns: 35% 65%;
   size: 7in 9.25in;
   margin: 27mm 16mm 27mm 16mm;
+  box-shadow: 0 0 10px black;
 }
 
 .segment1 {
