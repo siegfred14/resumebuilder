@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-around;
   box-shadow: 0 0 10px gray;
-  margin: 10%, 15%;
+  margin: 10% 15%;
 }
 
 .container {
