@@ -12,6 +12,10 @@ body {
   height: 70vh;
 }
 
+.welcome_msg {
+  margin: 10%;
+}
+
 .accounts {
   /* width: 80%; */
   display: flex;
