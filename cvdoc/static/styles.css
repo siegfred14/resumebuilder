@@ -26,6 +26,10 @@ body {
   padding: 20px;
 }
 
+.sign {
+  font-size: arial;
+}
+
 .container {
   background: rgba(23, 162, 184, 0.4);
   box-shadow: 0 5px 5px black;
