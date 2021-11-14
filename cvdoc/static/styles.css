@@ -27,7 +27,11 @@ body {
 }
 
 .sign {
-  font-size: arial;
+  font-style: arial;
+  font-size: 15px;
+}
+
+.sign:hover {
   font-size: 15px;
 }
 
