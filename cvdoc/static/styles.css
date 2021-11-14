@@ -33,6 +33,7 @@ body {
 
 .sign:hover {
   font-size: 15px;
+  color: rgb(192, 35, 35);
 }
 
 .container {
