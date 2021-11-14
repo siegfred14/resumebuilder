@@ -29,6 +29,7 @@ body {
 .sign {
   font-style: arial;
   font-size: 15px;
+  text-decoration: none;
 }
 
 .sign:hover {
