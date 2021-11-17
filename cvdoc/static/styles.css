@@ -17,6 +17,10 @@ body {
   padding: 5px;
 }
 
+.welcome_msg p {
+  color: rgb(226, 10, 10);
+}
+
 .accounts {
   /* width: 80%; */
   display: flex;
