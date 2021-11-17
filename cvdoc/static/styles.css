@@ -17,6 +17,10 @@ body {
   padding: 5px;
 }
 
+.projectname {
+  color: rgba(pink, brown, orange, 13);
+}
+
 .welcome_msg p {
   color: rgb(226, 10, 10);
 }
