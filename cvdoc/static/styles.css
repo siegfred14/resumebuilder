@@ -23,6 +23,7 @@ body {
 
 .welcome_msg p {
   color: rgb(226, 10, 10);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .accounts {
