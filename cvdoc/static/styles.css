@@ -44,7 +44,7 @@ body {
   transition: 0.5s;
 }
 
-.sign:hover {
+.sign a:hover {
   font-size: 30px;
   color: rgb(192, 35, 35);
   transition: 0.5s;
