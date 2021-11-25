@@ -30,7 +30,7 @@ body {
   /* width: 80%; */
   display: flex;
   justify-content: space-around;
-  box-shadow: 0 0 10px gray;
+  /* box-shadow: 0 0 10px gray; */
   margin: 10% 15%;
   padding: 20px;
   font-size: 25px;
