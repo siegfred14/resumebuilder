@@ -42,7 +42,7 @@ body {
   color: black;
   text-decoration: none;
   transition: 0.3s;
-  background-color: pink;
+  /* background-color: pink; */
   width: 100%;
 }
 
