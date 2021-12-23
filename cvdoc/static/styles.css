@@ -40,6 +40,10 @@ body {
   font-size: 25px;
 }
 
+.sign {
+  box-shadow: 0 9 10px black;
+}
+
 .sign a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
