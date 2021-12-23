@@ -42,6 +42,7 @@ body {
 
 .sign {
   box-shadow: 0 9 10px black;
+  padding: 5px, 10px;
 }
 
 .sign a {
