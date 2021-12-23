@@ -8,6 +8,10 @@ body {
   background: linear-gradient(45deg, #17a2b8, rgba(255, 255, 255, 0.657));
 }
 
+.base_background {
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Foffice&psig=AOvVaw1cR9nsNq9WW4OnLzqd9esF&ust=1640330369174000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODayPSw-fQCFQAAAAAdAAAAABAD);
+}
+
 /* HOMEPAGE */
 
 .homepage {
