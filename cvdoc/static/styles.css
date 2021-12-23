@@ -45,8 +45,9 @@ body {
 .sign {
   background-color: chartreuse;
   /* width: ; */
-  box-shadow: 0 9 10px black;
+  box-shadow: 0, 0, 10px black;
   padding: 1.5% 4.5%;
+  margin: 1%;
 }
 
 .sign a {
