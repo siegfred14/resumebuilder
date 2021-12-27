@@ -67,7 +67,8 @@ body {
   transition: 0.3s;
 }
 
-.sign:hover a {
+/* .sign:hover a, */
+.accounts a:hover {
   color: rgb(192, 35, 35);
   transition: 0.3s;
   text-decoration: none;
