@@ -47,6 +47,7 @@ body {
   margin: 1%;
   background-color: thistle;
   box-shadow: 0, 0, 10px black;
+  border-radius: 15px;
 }
 
 .sign {
@@ -55,7 +56,6 @@ body {
 
   padding: 1.5% 4.5%;
   margin: 1%;
-  border-radius: 15px;
 }
 
 .sign a {
