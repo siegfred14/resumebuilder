@@ -7,6 +7,7 @@
 body {
   /* background: linear-gradient(45deg, #17a2b8, rgba(255, 255, 255, 0.657)); */
   background-image: url(https://media.istockphoto.com/photos/working-area-in-modern-office-with-carpet-floor-and-meeting-room-3d-picture-id1177487069?k=20&m=1177487069&s=612x612&w=0&h=4Vjb5LD1cPU8yPyf386LdJUv1CwvJVlEWN9C0MbBDHQ=);
+  background-repeat: no-repeat;
 }
 
 /* .base_background {
