@@ -79,6 +79,11 @@ body {
 .view_templates {
   /* background-color: green; */
   text-decoration: none;
+  color: black;
+}
+
+.view_templates:hover {
+  text-decoration: none;
 }
 
 .container {
