@@ -81,6 +81,7 @@ body {
   /* background-color: green; */
   text-decoration: none;
   color: black;
+  box-shadow: 0 0 10px black;
 }
 
 .view_templates:hover {
