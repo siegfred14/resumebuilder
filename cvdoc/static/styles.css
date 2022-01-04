@@ -72,6 +72,7 @@ body {
 /* .sign:hover a, */
 .accounts a:hover {
   color: rgb(192, 35, 35);
+  background: linear-gradient(45deg, rgb(57, 40, 32), none);
   transition: 0.3s;
   text-decoration: none;
 }
