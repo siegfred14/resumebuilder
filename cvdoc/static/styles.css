@@ -59,16 +59,6 @@ body {
   margin: 1%;
 }
 
-.sign a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  color: black;
-  background-color: white;
-  padding: 1.5% 4.5%;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
 /* .sign:hover a, */
 .accounts a:hover {
   color: rgb(192, 35, 35);
