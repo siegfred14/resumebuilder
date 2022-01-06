@@ -77,14 +77,14 @@ body {
   text-decoration: none;
 }
 
-.view_templates {
+.view_templates a {
   /* background-color: green; */
   text-decoration: none;
   color: black;
   box-shadow: 0 0 10px black;
 }
 
-.view_templates:hover {
+.view_templates a:hover {
   text-decoration: none;
 }
 
