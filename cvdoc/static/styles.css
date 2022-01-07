@@ -16,11 +16,6 @@ body {
 
 /* HOMEPAGE */
 
-.homepage {
-  text-align: center;
-  height: 78vh;
-}
-
 .welcome_msg {
   margin: 3%;
   padding: 5px;
@@ -33,6 +28,12 @@ body {
 .welcome_msg p {
   color: rgb(226, 10, 10);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homepage {
+  text-align: center;
+  height: 78vh;
+  font-weight: bold;
 }
 
 .accounts {
@@ -64,6 +65,7 @@ body {
   padding: 0.5%, 2%;
   text-decoration: none;
   color: black;
+  font-weight: bold;
   box-shadow: 0 0 10px black;
 }
 
