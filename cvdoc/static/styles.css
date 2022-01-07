@@ -1,5 +1,6 @@
-nav {
+.navbar {
   background-color: rgb(57, 40, 32);
+  position: fixed;
 }
 
 /* BODY */
@@ -66,7 +67,7 @@ body {
   padding: 0.5%, 2%;
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   box-shadow: 0 0 10px black;
 }
 
