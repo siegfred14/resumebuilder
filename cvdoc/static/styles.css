@@ -50,6 +50,7 @@ body {
   /* background-color: thistle; */
   box-shadow: 0 0 10px black;
   border-radius: 15px;
+  font-weight: bold;
 }
 
 /* .sign:hover a, */
@@ -71,6 +72,7 @@ body {
 
 .view_templates a:hover {
   text-decoration: none;
+  color: rgb(192, 35, 35);
 }
 
 .container {
