@@ -69,11 +69,13 @@ body {
   color: black;
   /* font-weight: bold; */
   box-shadow: 0 0 10px black;
+  transition: 0.3s;
 }
 
 .view_templates a:hover {
   text-decoration: none;
   color: rgb(192, 35, 35);
+  transition: 0.3s;
 }
 
 .container {
