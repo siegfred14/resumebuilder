@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(106, 99, 91);
+  background-color: rgba(106, 99, 91, 0.4);
 }
 
 /* HOMEPAGE */
