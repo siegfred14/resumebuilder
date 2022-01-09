@@ -12,6 +12,7 @@ body {
 
 .navbar {
   background-color: rgba(106, 99, 91, 0.4);
+  text-shadow: 0 0 3px wheat;
 }
 
 /* HOMEPAGE */
