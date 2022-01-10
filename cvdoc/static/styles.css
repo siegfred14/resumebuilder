@@ -71,7 +71,7 @@ body {
   /* font-weight: bold; */
   box-shadow: 0 0 10px black;
   transition: 0.3s;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .view_templates a:hover {
