@@ -15,6 +15,10 @@ body {
   text-shadow: 0 0 3px wheat;
 }
 
+#navbarSupportedContent:hover {
+  color: rgb(226, 10, 10);
+}
+
 /* HOMEPAGE */
 
 .homepage {
