@@ -121,6 +121,7 @@ label {
 .cv-template {
   position: relative;
   left: 15px;
+  top: 4%;
   display: grid;
   grid-template-columns: 35% 65%;
   /* size: 7in 9.25in;
