@@ -116,11 +116,15 @@ label {
   font-size: 25px;
 }
 
+/* RESUME 2 */
+
 .cv-template {
+  position: relative;
+  left: 15px;
   display: grid;
   grid-template-columns: 35% 65%;
-  size: 7in 9.25in;
-  margin: 27mm 16mm 27mm 16mm;
+  /* size: 7in 9.25in;
+  margin: 27mm 16mm 27mm 16mm; */
   box-shadow: 0 0 10px black;
 }
 
