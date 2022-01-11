@@ -122,6 +122,8 @@ label {
   position: relative;
   left: 15px;
   top: 4%;
+  width: 210mm;
+
   display: grid;
   grid-template-columns: 35% 65%;
   /* size: 7in 9.25in;
