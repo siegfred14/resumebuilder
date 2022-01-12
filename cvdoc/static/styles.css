@@ -131,6 +131,9 @@ label {
   box-shadow: 0 0 10px black;
 }
 
+.segment1_details {
+  margin: 2%;
+}
 .segment1 {
   background-image: linear-gradient(25deg, wheat, grey);
 }
