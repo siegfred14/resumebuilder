@@ -52,7 +52,6 @@ body {
 .accounts a {
   padding: 1.5% 4.5%;
   margin: 1%;
-  /* background-color: thistle; */
   box-shadow: 0 0 10px black;
   transition: 0.3s;
   border-radius: 15px;
