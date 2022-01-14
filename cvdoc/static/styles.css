@@ -129,6 +129,9 @@ label {
   box-shadow: 0 0 10px black;
 }
 
+.segment1-test {
+  margin: 5%;
+}
 .segment1_details {
   margin: 5%;
 }
